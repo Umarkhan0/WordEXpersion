@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text desinge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main_container">
+    <section>
+        <h1>Font Size</h1>
+        <select name="dropdown" id="changSize" onchange="changSize()" >
+    <option value="2rem">1</option>
+    <option value="4rem">2</option>
+    <option value="6rem">3</option>
+    <option value="7rem">4</option>
+    <option value="8rem">5</option>
+    <option value="9rem">6</option>
+    <option value="10rem">7</option>
+    <option value="11rem">8</option>
+    <option value="12rem">9</option>
+        </select>
+    </section>
+<section>
+    <h1>Font Wait</h1>
+    <select name="dropdown" id="fontWaight" onchange="fontWaight()" >
+        <option>Bold</option>
+        <option value="900">Bold</option>
+            </select>
+</section> 
+<section>
+<h1>BackGround </h1>
+<input type="color" onchange="changBackGroundColor()" id="changBackGroundColor" >
+</section>
+<section>
+    <h1>Font Color</h1>
+    <input type="color" onchange="changColor()" id="changColor" />
+</div>
+<p id="text"> Umar khan </p>
+    <script src="app.js"></script> 
+</body>
+</html>

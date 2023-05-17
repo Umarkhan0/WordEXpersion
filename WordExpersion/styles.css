@@ -1,0 +1,33 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body{
+    background-color: black;
+}Option{
+    color: black;
+    font-size: large;
+}select{
+    padding: 15px 30px;
+    font-size: 20px;
+}h1{
+    color: white;
+}input[type="color"]{
+    padding: 28px 55px;
+    cursor: pointer;
+}#button{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+    cursor: pointer;
+    border-radius: 20px;
+}p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
